@@ -27,4 +27,3 @@ spec:
       - name: "AIRFLOW__CORE__LOAD_EXAMPLES"
         value: "False"
     executor: "KubernetesExecutor"
-    

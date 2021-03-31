@@ -25,5 +25,5 @@ spec:
       - name: "AIRFLOW__KUBERNETES__RUN_AS_USER"
         value: "50000"
       - name: "AIRFLOW__CORE__LOAD_EXAMPLES"
-        value: "False"
+        value: "True"
     executor: "KubernetesExecutor"
